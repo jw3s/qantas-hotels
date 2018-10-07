@@ -1,3 +1,5 @@
+[See running app](https://wes-qantas-hotels.herokuapp.com/)
+
 ## To run the app:
 
 ### `yarn start`
