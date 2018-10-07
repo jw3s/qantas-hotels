@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Ratings /> <Ratings /> should render tree with type circle 1`] = `
+.c1 {
+  width: 25px;
+  height: 25px;
+  -webkit-clip-path: circle(10px at center);
+  clip-path: circle(10px at center);
+  background: #f7f7f7;
+  cursor: pointer;
+}
+
+.c1 > div {
+  width: 100%;
+  height: 25px;
+  background: #f6e200;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    type="circle"
+    value={100}
+  >
+    <div />
+  </div>
+  <div
+    className="c1"
+    type="circle"
+    value={100}
+  >
+    <div />
+  </div>
+  <div
+    className="c1"
+    type="circle"
+    value={100}
+  >
+    <div />
+  </div>
+  <div
+    className="c1"
+    type="circle"
+    value={100}
+  >
+    <div />
+  </div>
+  <div
+    className="c1"
+    type="circle"
+    value={100}
+  >
+    <div />
+  </div>
+</div>
+`;
+
+exports[`<Ratings /> <Ratings /> should render tree with type star 1`] = `
+.c1 {
+  width: 25px;
+  height: 25px;
+  -webkit-clip-path: polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);
+  clip-path: polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);
+  background: #f7f7f7;
+  cursor: pointer;
+}
+
+.c1 > div {
+  width: 100%;
+  height: 25px;
+  background: #f6e200;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    type="star"
+    value={100}
+  >
+    <div />
+  </div>
+  <div
+    className="c1"
+    type="star"
+    value={100}
+  >
+    <div />
+  </div>
+  <div
+    className="c1"
+    type="star"
+    value={100}
+  >
+    <div />
+  </div>
+  <div
+    className="c1"
+    type="star"
+    value={100}
+  >
+    <div />
+  </div>
+  <div
+    className="c1"
+    type="star"
+    value={100}
+  >
+    <div />
+  </div>
+</div>
+`;

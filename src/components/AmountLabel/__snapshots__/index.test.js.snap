@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AmountLabel /> <AmountLabel /> should render tree 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 7px;
+}
+
+.c2 {
+  font-size: 1.2rem;
+}
+
+.c1 {
+  font-size: 3rem;
+}
+
+<span
+  className="c0"
+>
+  <label
+    className="c1"
+  >
+    <sup
+      className="c2"
+    >
+      $
+    </sup>
+    500
+  </label>
+</span>
+`;

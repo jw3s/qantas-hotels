@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typography /> <Heading/> <Heading /> should render h1 tree 1`] = `
+.c0 {
+  font-size: 22px;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+<h1
+  className="c0"
+>
+  This is heading
+</h1>
+`;
+
+exports[`<Typography /> <Heading/> <Heading /> should render h2 tree 1`] = `
+.c0 {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+<h2
+  className="c0"
+>
+  This is heading
+</h2>
+`;
+
+exports[`<Typography /> <Heading/> <Heading /> should render h3 tree with no margin 1`] = `
+.c0 {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 0px;
+  color: #000;
+}
+
+<h2
+  className="c0"
+>
+  This is heading
+</h2>
+`;
+
+exports[`<Typography /> <Label/> <Label /> should render label tree with 20px size weight bold 1`] = `
+.c0 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: initial;
+}
+
+<label
+  className="c0"
+  size={20}
+>
+  This is label
+</label>
+`;
+
+exports[`<Typography /> <Label/> <Label /> should render simple label tree 1`] = `
+.c0 {
+  font-size: 16px;
+  font-weight: 100;
+  margin-bottom: 5px;
+  color: initial;
+}
+
+<label
+  className="c0"
+>
+  This is label
+</label>
+`;

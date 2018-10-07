@@ -1,0 +1,19 @@
+{
+  "name": "wesley-qantas-hotels",
+  "alias": "wesley-qantas-hotels",
+  "type": "static",
+  "build": {
+    "env": {
+      "CI": "true",
+      "NODE_ENV": "production"
+    }
+  },
+  "static": {
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

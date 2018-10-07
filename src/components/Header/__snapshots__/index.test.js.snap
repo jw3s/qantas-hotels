@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> <Header /> snapshot 1`] = `
+.c0 {
+  padding: 20px;
+  max-width: 1072px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.c1 {
+  width: 20%;
+  min-width: 250px;
+}
+
+<header
+  className="c0"
+>
+  <img
+    alt="logo"
+    className="c1"
+    src="qantas-logo.png"
+    width="20%"
+  />
+</header>
+`;
